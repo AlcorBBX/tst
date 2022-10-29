@@ -24,7 +24,7 @@
         <td>
             <router-link :to="{ name: 'patient', params: { id: patient.id} }">Перейти</router-link>
         </td>
-        <td><button @click="$emit('remove', patient)">delete</button></td>
+        <td><button @click="$emit('remove', patient)">удалить</button></td>
     </tr>
 </template>
 <script>
