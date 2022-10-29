@@ -17,7 +17,7 @@
         </td>
         <td>
         </td>
-        <td><button @click="$emit('remove', consultation)">delete</button></td>
+        <td><button @click="$emit('remove', consultation)">удалить</button></td>
     </tr>
 </template>
 <script>
